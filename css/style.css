@@ -1,0 +1,62 @@
+/*
+colors used
+Darkest green: #35403E
+Green gray: #697F7C
+Medium green gray: #9EBFBA
+Sea foam: BEE5DF
+*/
+body {
+  background-color: #9EBFBA;
+  font-family:'open sans', sans-serif;
+  font-size: 16px;
+  line-height:1.6;
+}
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+}
+a {
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: none; /* No underlining when hovering over a link */
+}
+a:visited {
+  /* visited link */
+  color: #464646;
+}
+
+a:active {
+  /* selected link */
+  color: #9EBFBA;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+button {
+  /* overwrite browser defaults */
+  border: none; /* reset the border */
+  font-family: inherit; /* takes the font from the outer container */
+
+  /* style button */
+  background-color: #35403E;
+  color: white !important;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 3px;
+  border-bottom: 2px solid #03474c; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+button:hover,
+button:focus {
+  cursor: pointer; /* let's the mouse appear as hand when hovering over the button */
+  opacity: 0.8; /* Reduces the opactiy of the button to 80% */
+}

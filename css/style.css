@@ -86,6 +86,7 @@ button:hover,
   margin-right: 1%;
   float: left;
   text-align: center;
+  vertical-align: top;
 }
 .column-4:last-child {
 margin-right: 0;
@@ -172,4 +173,19 @@ li a.active {
 }
 .cloud-back {
   animation:34s cloud-move-reverse infinite alternate linear;
+}
+
+.project {
+  position:relative;
+}
+
+.project-details {
+  display:none;
+  position:absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 5px;
+  background: rgba (5, 103, 110, 0.5);
 }
